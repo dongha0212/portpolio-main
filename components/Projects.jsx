@@ -37,7 +37,7 @@ import React from 'react';
         <div className='w-full' id="projects">
         <div className="max-w-[1700px] mx-auto px-2 py-16">
             <p className="txt-xl tracking-widest uppercase text-[35px] font-bold text-[#5651e5]">Projects</p>
-            <h2 className="py-8">What I've Built</h2>
+            <h2 className="py-8">What I have Built</h2>
 
             {projectsData.map((project, index) => (
             <div key={index} className="mb-8">
