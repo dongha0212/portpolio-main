@@ -25,9 +25,9 @@ import React from 'react';
         name: 'Portpolio',
         link: 'https://github.com/dongha0212/portpolio-main',
         description: '현재 보고있는 포트폴리오 웹사이트',
-
-        name: 'Myth',
-        link: 'myth-green.vercel.app',
+    },
+    {   name: 'Myth',
+        link: 'https://myth-green.vercel.app',
         description: '팀 프로젝트로 진행한 쇼핑몰 웹사이트',
     },
     ];
