@@ -8,25 +8,25 @@ function Navbar(props) {
         setNav(!nav)
     }
     return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#f4f4f4]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#9837cf]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="w-[125px] h-[70px] rounded-full overflow-hidden">
         </div>
         <div>
           <ul className="hidden md:flex">
             <Link href={"/"}>
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">Home</li>
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#050308] hover:scale-105 text-white">Home</li>
             </Link>
             <Link href={"#about"}>
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">About</li>
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#050308] hover:scale-105  text-white">About</li>
             </Link>
-            <Link href={"#skills"}>
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">
+            <Link href={"#skill"}>
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#050308] hover:scale-105  text-white">
                 Skill
               </li>
             </Link>
             <Link href={"#projects"}>
-              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">
+              <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#050308] hover:scale-105 text-white">
                 Projects
               </li>
             </Link>
@@ -55,7 +55,7 @@ function Navbar(props) {
                         <li className="py-4 text-sm">About</li>
                     </Link>
                     <Link href={"/"}>
-                        <li className="py-4 text-sm">Skills</li>
+                        <li className="py-4 text-sm">Skill</li>
                     </Link>
                     <Link href={"/"}>
                         <li className="py-4 text-sm">Projects</li>
